@@ -1,18 +1,38 @@
-## Getting Started
+# Flappy Bird Game Project
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A Java-based clone of the popular Flappy Bird game, enhanced with unique gameplay features like the "Ghost Mode" power-up, developed using Java Swing.
 
-## Folder Structure
+## Features
 
-The workspace contains two folders by default, where:
+- **Core Gameplay Mechanics**: Implemented fundamental Flappy Bird mechanics such as bird movement, gravity, and collision detection.
+- **Ghost Mode Power-Up**: Added a special power-up that allows the bird to temporarily pass through walls, adding a strategic layer to the game.
+- **Responsive Controls**: Utilized Java Swing's `ActionListener` for smooth and responsive user input handling.
+- **Simple and Intuitive UI**: Designed a straightforward interface that closely mimics the original Flappy Bird experience.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Technologies Used
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- **Java**: Programming language used for core game logic and mechanics.
+- **Swing**: Java's GUI widget toolkit used for creating the game's user interface and handling animations.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Installation and Setup
 
-## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### Clone the repository
+```git clone https://github.com/scamitt/FlappyBird.git```
+
+### Navigate to the project directory
+```cd FlappyBird```
+
+### Compile the source code
+```javac -d bin src/*.java```
+
+### Run the game
+```java -cp bin App```
+
+## Demo Game Play
+
+
+https://github.com/user-attachments/assets/c1c07e10-6599-4d42-834a-d632a4dbb560
+
+
+
